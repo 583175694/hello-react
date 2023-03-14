@@ -49,8 +49,6 @@ export default function useScreen() {
         openWindow.moveTo(-`${screen.availWidth}`, 0);
       }
     }
-
-    console.log('openWindow: ', openWindow);
   };
 
   // 谷歌跳转
